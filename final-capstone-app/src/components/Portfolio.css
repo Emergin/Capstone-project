@@ -1,0 +1,87 @@
+/* General Section Styling */
+.section {
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  .section__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .section__subtitle {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Portfolio specific styling */
+  .portfolio__container {
+    margin-top: 2rem;
+  }
+  
+  .swiper-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .portfolio__content {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .portfolio__img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Adjust based on your preference */
+  }
+  
+  .portfolio__data {
+    padding: 1rem;
+  }
+  
+  .portfolio__title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .portfolio__description {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .button--flex {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem; /* Creates space between text and icon */
+  }
+  
+  .button--small {
+    font-size: 0.875rem;
+    padding: 0.75rem 1rem;
+  }
+  
+  .portfolio__button {
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .portfolio__button:hover {
+    background-color: #0056b3;
+  }
+  
+  .swiper-button-next, .swiper-button-prev {
+    color: #007bff;
+  }
+  
+  .swiper-pagination-bullet {
+    background-color: #007bff;
+  }
+  

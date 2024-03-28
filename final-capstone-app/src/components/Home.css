@@ -1,0 +1,95 @@
+/* General Styles */
+.home {
+    padding: 4rem 0;
+    background-color: #f0f2f5;
+    color: #333;
+  }
+  
+  .home__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  
+  .home__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .home__social-icon {
+    margin-right: 1rem;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .home__social-icon:hover {
+    color: #007bff;
+  }
+  
+  .home__img {
+    display: contents;
+    justify-content: right;
+    align-items: flex-end;
+  }
+  
+  .home__blob-img {
+    width: 250px; /* Adjust based on your preference */
+    border-radius: 50%;
+    justify-content: right;
+    align-items: flex-end;
+    align-self: flex-end;
+    appearance: unset;
+  }
+  
+  .home__title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .home__subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .home__description {
+    margin-bottom: 2rem;
+  }
+  
+  .button--flex {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.75rem 2rem;
+    background-color: #007bff;
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button--flex:hover {
+    background-color: #0056b3;
+  }
+  
+  .home__scroll-button {
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .home__scroll-mouse {
+    margin-right: 0.5rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .home__container {
+      grid-template-columns: 1fr;
+    }
+  
+    .home__img {
+      order: -1; /* Puts the image above the text on small screens */
+      margin-bottom: 2rem;
+    }
+  }
+  

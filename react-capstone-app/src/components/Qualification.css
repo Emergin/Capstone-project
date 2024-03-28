@@ -1,0 +1,122 @@
+/* General Styles for Qualification Section */
+.qualification__section, .service__section {
+    padding: 4rem 0;
+    background-color: #f8f9fa; /* Light background to distinguish the section */
+  }
+  
+  .section__title {
+    color: #333; /* Dark color for contrast */
+    margin-bottom: 1rem;
+  }
+  
+  .section__subtitle {
+    color: #666; /* Lighter color for the subtitle */
+    margin-bottom: 2rem;
+  }
+  
+  /* Container Styles */
+  .qualification__container, .services__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  /* Tab Styles */
+  .qualification__tabs {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .qualification__button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .qualification__button:hover,
+  .qualification__active {
+    color: #007bff; /* Highlight color for active tab */
+  }
+  
+  .qualification__icon {
+    margin-right: 0.5rem;
+  }
+  
+  /* Content Styles */
+  .qualification__content, .services__content {
+    flex: 1;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Soft shadow for depth */
+  }
+  
+  .qualification__title {
+    color: #007bff; /* Same as active tab for consistency */
+    margin-bottom: 1rem;
+  }
+  
+  .qualification__subtitle {
+    font-size: 0.875rem;
+    color: #666;
+  }
+  
+  .qualification__calendar {
+    font-size: 0.875rem;
+    color: #999;
+    margin: 1rem 0;
+  }
+  
+  .button--link {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  /* Modal Styles */
+  .services__modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    z-index: 1000; /* Ensure modal is above other content */
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  .services__modal-content {
+    position: relative;
+  }
+  
+  .services__modal-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .services__modal-title {
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .services__modal-service {
+    margin-bottom: 1rem;
+  }
+  
+  .services__modal-icon {
+    color: #007bff;
+    margin-right: 0.5rem;
+  }
+  

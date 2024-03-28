@@ -1,0 +1,63 @@
+.skills {
+    padding: 2rem 0;
+  }
+  
+  .skills__container {
+    display: grid;
+    gap: 2rem;
+  }
+  
+  .skills__content {
+    background-color: #fafafa;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+  }
+  
+  .skills__header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .skills__icon {
+    font-size: 2rem;
+    margin-right: 1rem;
+  }
+  
+  .skills__title {
+    margin: 0;
+    flex: 1;
+  }
+  
+  .skills__arrow {
+    font-size: 2rem;
+  }
+  
+  .skills__list {
+    margin-top: 2rem;
+  }
+  
+  .skills__data {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .skills__name, .skills__number {
+    font-size: 1rem;
+  }
+  
+  .skills__bar {
+    background-color: #e6e1e1;
+    height: 5px;
+    border-radius: 5px;
+  }
+  
+  .skills__percentage {
+    background-color: #d43030;
+    height: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Add specific styles for different skill percentages */
+  

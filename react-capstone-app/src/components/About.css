@@ -1,0 +1,88 @@
+/* About Section Styles */
+.about.section {
+    padding: 4rem 0;
+    background-color: #f8f9fa; /* Light background for the section */
+  }
+  
+  .section__title {
+    color: #333; /* Dark color for the title for contrast */
+    margin-bottom: 1rem;
+  }
+  
+  .section__subtitle {
+    color: #666; /* Lighter color for the subtitle */
+    margin-bottom: 2rem;
+  }
+  
+  .about__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .about__img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Slightly rounded corners for the image */
+  }
+  
+  .about__data {
+    text-align: left;
+  }
+  
+  .about__description {
+    margin-bottom: 1.5rem;
+    line-height: 1.6; /* Improve readability */
+    color: #444; /* Slightly darker than subtitle for readability */
+  }
+  
+  .about__info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about__info-title {
+    display: block;
+    font-size: 2rem;
+    color: #007bff; /* Highlight color for titles */
+  }
+  
+  .about__info-name {
+    display: block;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .button--flex {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff; /* Primary button color */
+    color: #fff; /* Button text color */
+    text-decoration: none; /* Remove underline from links */
+    border-radius: 5px; /* Rounded corners for buttons */
+    transition: background-color 0.3s ease;
+  }
+  
+  .button--flex:hover {
+    background-color: #0056b3; /* Darken button on hover */
+  }
+  
+  .button__icon {
+    margin-left: 10px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .about__info {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .about__info > div {
+      margin-bottom: 1rem;
+    }
+  }
+  
