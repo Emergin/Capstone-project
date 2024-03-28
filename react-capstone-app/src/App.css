@@ -88,6 +88,13 @@ body.dark-theme {
   align-items: center;
 }
 
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .change-theme {
   font-size: 1.25rem;
   color: var(--title-color);
@@ -1163,3 +1170,5 @@ img {
     bottom: -4.5rem;
   }
 }
+
+

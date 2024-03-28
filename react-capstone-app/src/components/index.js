@@ -1,3 +1,6 @@
+// import { Swiper} from 'swiper/react';
+import Swiper from "swiper";
+
 const navMenu = document.getElementById("nav-menu");
 const navToggle = document.getElementById("nav-toggle");
 const navClose = document.getElementById("nav-close");
