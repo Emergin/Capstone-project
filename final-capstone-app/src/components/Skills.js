@@ -55,7 +55,7 @@ const Skills = () => {
               <h1 className="skills__title">{category.title}</h1>
               <i className="uil uil-angle-down skills__arrow"></i>
             </div>
-
+            
             {openSkill === category.id && (
               <div className="skills__list grid">
                 {category.skills.map((skill, index) => (

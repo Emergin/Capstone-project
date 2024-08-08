@@ -1,5 +1,5 @@
 .skills {
-    padding: 2rem 0;
+    padding: rem 0;
   }
   
   .skills__container {
@@ -8,13 +8,14 @@
   }
   
   .skills__content {
-    background-color: #fafafa;
+    background-color: #8060d9e4;
     padding: 1.5rem;
     border-radius: 0.5rem;
   }
   
   .skills__header {
     display: flex;
+    /* background-color: aqua; */
     align-items: center;
     cursor: pointer;
   }
@@ -26,6 +27,7 @@
   
   .skills__title {
     margin: 0;
+    /* background-color: aqua; */
     flex: 1;
   }
   

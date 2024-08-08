@@ -9,15 +9,15 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import './Portfolio.css'; // Make sure to create a corresponding CSS file
 
-import foodAppImg from './food.gif';
-import movieAppImg from './movie.gif';
-import libraryAppImg from './library.gif';
-import quotesAppImg from './quotes.gif';
+import foodAppImg from './food.jpeg';
+import movieAppImg from './movie.jpeg';
+import libraryAppImg from './library.jpeg';
+import dekutAppImg from './Dekut.jpeg';
 
 const projects = [
   {
     img: foodAppImg,
-    title: "React Food App",
+    title: "Food App",
     description: "This project is a react food app that allows customers to buy and the items are put in a cart where by the store will view the orders.",
     repoUrl: "https://github.com/Emergin/React-projects",
     cloneUrl: "https://github.com/Emergin/React-projects.git",
@@ -31,14 +31,14 @@ const projects = [
   },
   {
     img: libraryAppImg,
-    title: "React Food App",
+    title: "Library App",
     description: "This project is a react food app that allows customers to buy and the items are put in a cart where by the store will view the orders.",
     repoUrl: "https://github.com/Emergin/React-projects",
     cloneUrl: "https://github.com/Emergin/React-projects.git",
   },
   {
-    img: quotesAppImg,
-    title: "React Food App",
+    img: dekutAppImg,
+    title: "Dekut Attachment App",
     description: "This project is a react food app that allows customers to buy and the items are put in a cart where by the store will view the orders.",
     repoUrl: "https://github.com/Emergin/React-projects",
     cloneUrl: "https://github.com/Emergin/React-projects.git",
@@ -69,9 +69,9 @@ const Portfolio = () => {
                 <a href={project.repoUrl} className="button button--flex button--small portfolio__button">
                   GitHub Repository<i className="uil uil-external-link-alt button__icon"></i>
                 </a>
-                <a href={project.cloneUrl} className="button button--flex button--small portfolio__button">
+                {/* <a href={project.cloneUrl} className="button button--flex button--small portfolio__button">
                   Clone repository<i className="uil uil-external-link-alt button__icon"></i>
-                </a>
+                </a> */}
               </div>
             </SwiperSlide>
           ))}
